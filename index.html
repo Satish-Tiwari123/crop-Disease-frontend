@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriVision AI Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <div class="logo">
+            🌿 AgriVision AI
+        </div>
+
+        <ul>
+            <li class="active">🏠 Dashboard</li>
+            <li>🤖 AI Scanner</li>
+            <li>📊 Reports</li>
+            <li>📚 Knowledge Base</li>
+            <li>⚙ Settings</li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <!-- Header -->
+        <header>
+
+            <div>
+                <h1>Crop Disease Detection System</h1>
+                <p>AI-powered crop health monitoring and recommendations</p>
+            </div>
+
+            <button id="themeBtn">
+                🌙 Dark Mode
+            </button>
+
+        </header>
+
+        <!-- Welcome Banner -->
+
+        <div class="welcome-banner">
+            <h2>🌱 Smart Agriculture with Artificial Intelligence</h2>
+            <p>
+                Upload a crop leaf image and get instant disease detection,
+                confidence score, severity analysis, and treatment recommendations.
+            </p>
+        </div>
+
+        <!-- Statistics -->
+
+        <div class="stats">
+
+            <div class="card">
+                <h2>125</h2>
+                <p>Total Scans</p>
+            </div>
+
+            <div class="card">
+                <h2>98%</h2>
+                <p>Model Accuracy</p>
+            </div>
+
+            <div class="card">
+                <h2>82</h2>
+                <p>Healthy Crops</p>
+            </div>
+
+            <div class="card">
+                <h2>43</h2>
+                <p>Diseased Crops</p>
+            </div>
+
+        </div>
+
+        <!-- Scanner Section -->
+
+        <div class="scanner">
+
+            <!-- Upload Box -->
+
+            <div class="uploadBox">
+
+                <h2>📤 Upload Crop Image</h2>
+
+                <div class="upload-area">
+
+                    <input type="file" id="imageInput">
+
+                    <p>
+                        Supported Formats:
+                        JPG, PNG, JPEG
+                    </p>
+
+                </div>
+
+                <img id="previewImage" src="" alt="Preview">
+
+                <button class="scanBtn">
+                    🚀 Start AI Analysis
+                </button>
+
+            </div>
+
+            <!-- Result Box -->
+
+            <div class="resultBox">
+
+                <h2>🤖 AI Diagnosis Result</h2>
+
+                <p><strong>Disease:</strong> Tomato Early Blight</p>
+
+                <p><strong>Confidence:</strong> 98.7%</p>
+
+                <p><strong>Severity:</strong> Medium Risk</p>
+
+                <div class="confidence">
+                    High Confidence Prediction
+                </div>
+
+                <hr>
+
+                <h3>🔬 Symptoms</h3>
+
+                <ul>
+                    <li>Brown circular leaf spots</li>
+                    <li>Yellow halo around lesions</li>
+                    <li>Leaf drying</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- Recommendations -->
+
+        <div class="recommendation-section">
+
+            <h2>💊 Treatment Recommendation</h2>
+
+            <div class="recommendation-card">
+
+                <ul>
+
+                    <li>Apply Mancozeb fungicide</li>
+
+                    <li>Remove infected leaves</li>
+
+                    <li>Avoid overhead irrigation</li>
+
+                    <li>Maintain crop rotation</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- History -->
+
+        <div class="history-section">
+
+            <h2>📋 Recent Scans</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Date</th>
+                        <th>Crop</th>
+                        <th>Disease</th>
+                        <th>Confidence</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>10 Sep 2026</td>
+                        <td>Tomato</td>
+                        <td>Early Blight</td>
+                        <td>98%</td>
+                    </tr>
+
+                    <tr>
+                        <td>09 Sep 2026</td>
+                        <td>Potato</td>
+                        <td>Late Blight</td>
+                        <td>95%</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
